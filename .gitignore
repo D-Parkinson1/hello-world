@@ -1,1 +1,6 @@
 /node_modules
+*.exe
+*.dll
+*.sql
+*.com
+*.class
