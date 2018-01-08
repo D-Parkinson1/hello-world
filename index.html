@@ -1,11 +1,33 @@
 <html>
   <head>
     <title>Test Website</title>
+    <link rel="stylesheet" type="text/css" href="web.css" />
+    <script src="/socket.io/socket.io.js"></script>
   </head>
+
+  <script>
+    var socket = io();
+  </script>
+
   <body>
-    <h1 align="center">A Test website</h1>
+    <header>
+      <nav>
+        <li id="navList">
+          <ul><a href="test">Home</a></ul>
+          <ul>Phaser Projects</ul>
+          <ul>Javascript Projects</ul>
+          <ul id="right-nav">About</ul>
+        </li>
+      </nav>
+    </header>
+    <main class="wrapper">
+
+
+
+    <h1>A Test website</h1>
     <p>
       This is a website that will be changed just to learn git.
-    </P>
+    </p>
+    </main>
   </body>
 </html>
