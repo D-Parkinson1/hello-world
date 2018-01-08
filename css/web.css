@@ -13,16 +13,12 @@ p {
   justify-content: center;
 }
 
-ul {
-  display: block;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .wrapper {
   background-color: #ffce89;
-  max-width: 92vw;
-  max-height: 95vh;
+  max-width: 90vw;
+  max-height: 93vh;
   height: 100vh;
   margin: auto;
   display: flex;
@@ -43,7 +39,6 @@ ul {
   justify-content: left;
 }
 
-#right-nav {
-  float: right;
-  justify-content: flex-end;
+#navList>ul {
+
 }
